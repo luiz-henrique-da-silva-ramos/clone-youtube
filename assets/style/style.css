@@ -1,0 +1,43 @@
+.navigation{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.navigation nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    padding: 0 16px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.navigation ul li {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+.box-search {
+    width: 348px;
+    border: 1px solid #CCCCCC;
+    height: 40px;
+    display: flex;
+    flex-grow: 2;
+}
+
+.navigation #avatar{
+    display: flex;
+    justify-content: end;
+}
+
