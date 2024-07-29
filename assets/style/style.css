@@ -57,29 +57,50 @@ nav .right {
 
 article {
     margin-top: 30px;
-    margin-left: 75px;
+    margin-left: 65px;
     width: 952px;
     height: 746px;
     border: 1px solid;
+    gap: 16px;
 }
 
-
-
-article .itens .channel{
-    padding: 8px;
+article .title-video{
+    font-weight: 600px;
     display: flex;
+    align-items: center;
+    size: 20px;
+    width: 871px;
+    height: 23px;
+    border: 1px solid;
+    margin: 10px 0 10px 0;
+}
+
+article .channel-bar{
     width: 902px;
     height: 42px;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid black;
+    border: 1px solid;
 }
 
-article .itens .channel button{
-    color: #FFFFFF;
-    background: #CC0000;
-    width: 159px;
-    height: 40px;
-    border: none;
-    border-radius: 2px;
+article .channel-bar .channel-logo{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 160px;
+    height: 42px;
+    gap: 12 px;
+}
+
+article .channel-bar .channel-logo #infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 106px;
+    height: 32px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+span{
+    color: gray;
 }
