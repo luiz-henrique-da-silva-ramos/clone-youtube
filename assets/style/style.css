@@ -60,7 +60,6 @@ article {
     margin-left: 65px;
     width: 952px;
     height: 746px;
-    border: 1px solid;
     gap: 16px;
 }
 
@@ -71,21 +70,20 @@ article .title-video {
     size: 20px;
     width: 871px;
     height: 23px;
-    border: 1px solid;
     margin: 10px 0 10px 0;
 }
 
 article .channel-bar {
+    margin-top: 20px;
     display: flex;
+    gap: 42px;
     width: 902px;
     height: 42px;
-    border: 1px solid;
 }
 
 article .channel-bar .channel-logo {
     display: flex;
     align-items: center;
-    border: 1px solid;
     width: 160px;
     height: 42px;
     gap: 12 px;
@@ -113,10 +111,10 @@ button {
     background-color: #CC0000;
     color: white;
     text-transform: uppercase;
+    border: none;
 }
 
 article .rate {
-    border: 1px solid;
     width: 63px;
     height: 24px;
 }
@@ -131,7 +129,6 @@ article .rate .like-unlike {
 }
 
 article .rate2{
-    border: 1px solid;
     width: 100px;
     height: 24px;
 }
@@ -156,3 +153,29 @@ article .share .compartilhar{
     align-items: center;
     gap: 5px;
 }
+
+article .down{
+    width: 95px;
+    height: 24px;
+}
+
+article .down .baixar{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 5px;
+}
+
+article .footer p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+article .footer .text2{
+    width: 510px;
+    height: 64px;
+    font-size: 14px;
+}
+
+
