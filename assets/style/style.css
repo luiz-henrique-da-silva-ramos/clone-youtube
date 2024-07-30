@@ -50,7 +50,7 @@ nav .right {
     /*border: 1px solid;*/
     margin: auto 0 auto 0;
     width: 164px;
-    height: 24px;   
+    height: 24px;
     display: flex;
     justify-content: space-around;
 }
@@ -64,7 +64,7 @@ article {
     gap: 16px;
 }
 
-article .title-video{
+article .title-video {
     font-weight: 600px;
     display: flex;
     align-items: center;
@@ -75,13 +75,14 @@ article .title-video{
     margin: 10px 0 10px 0;
 }
 
-article .channel-bar{
+article .channel-bar {
+    display: flex;
     width: 902px;
     height: 42px;
     border: 1px solid;
 }
 
-article .channel-bar .channel-logo{
+article .channel-bar .channel-logo {
     display: flex;
     align-items: center;
     border: 1px solid;
@@ -90,7 +91,7 @@ article .channel-bar .channel-logo{
     gap: 12 px;
 }
 
-article .channel-bar .channel-logo #infos{
+article .channel-bar .channel-logo #infos {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -101,6 +102,57 @@ article .channel-bar .channel-logo #infos{
     margin-left: 5px;
 }
 
-span{
+span {
     color: gray;
+}
+
+button {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #CC0000;
+    color: white;
+    text-transform: uppercase;
+}
+
+article .rate {
+    border: 1px solid;
+    width: 63px;
+    height: 24px;
+}
+
+article .rate .like-unlike {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+article .rate2{
+    border: 1px solid;
+    width: 100px;
+    height: 24px;
+}
+
+article .unlike{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+article .share{
+    width: 115px;
+    height: 24px;
+}
+
+article .share .compartilhar{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 5px;
 }
